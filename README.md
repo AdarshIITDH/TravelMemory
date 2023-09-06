@@ -1,4 +1,9 @@
-# Travel Memory
+# Travel Memory Application on AWS
+
+### Step1
+
+
+
 
 `.env` file to work with the backend:
 
