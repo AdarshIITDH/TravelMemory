@@ -14,6 +14,7 @@
 
  - Connect a custom domain through Cloudflare.
 
+![1](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/64e9327d-3705-4344-b8b2-b2f9e8f6ebb2)
 
 ## Step1 - Setting up the EC2 instances for Frontend & Backend
 
