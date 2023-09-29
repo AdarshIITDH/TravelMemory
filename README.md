@@ -67,7 +67,7 @@ The frontend application is running at port 3000
 ### Backend Configuration
     cd /home/ubuntu/TravelMemory/backend/
     nano .env
-    MONGO_URI='mongodb+srv://adarsh307kumar:GfzaOe274UROZDX3@travelmemory.wxwkpag.mongodb.net/travelmemory'
+    MONGO_URI='mongodb+srv://adarsh307kumar:<password>@travelmemory.wxwkpag.mongodb.net/travelmemory'
     PORT=3000
     sudo npm install
     
