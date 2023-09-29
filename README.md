@@ -146,6 +146,7 @@ Then will be launching the instance using the AMIs we have saved earlier.
 ![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/5beb5758-187d-4945-824d-0b00a08d571c)
 
 Frontend
+
 ![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/409cf6a0-90e8-41a1-b311-5e3747785f81)
 ![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/5888d14b-c5ef-44b4-bc63-8426ad812e2e)
 
@@ -182,13 +183,26 @@ Both the Load Balancers are active.
 ![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/0a815a8f-5a1a-453e-9c97-bfb93ea2568c)
 
 
+## Step5 - Scaling the Appliacation
 
+Domain Setup with Cloudflare:
+ - Connect your custom domain to the application using Cloudflare.
+ - Create a CNAME record pointing to the load balancer endpoint.
 
+Used the domain [adarshkumars.co.in] to point towards the Frontend Load Balancer by adding a CNAME entry in Cloudflare and used the subdomain [back.adarshkumars.co.in].
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/49837820-d3c3-4403-a76a-9891d4db757d)
 
+Now making the backend accessible to the subdomain we have created for both the backend and putting in url.js file of frontend instances.
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/411a3390-37de-42df-a82a-2fe1a5b8086b)
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/65da169d-bf71-41e0-b532-6a9b0735f3bf)
 
+Lets run the application using domain name 
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/a36ef4e6-0bb8-43d8-9113-7e23fdfb5d52)
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/0eda79de-a8aa-4026-b23d-7452122102a9)
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/29285716-afb1-4ca0-80a8-3c986918342a)
 
-
-
+The data get stored in the MongoDB database.
+![image](https://github.com/AdarshIITDH/TravelMemory/assets/60352729/c642f0c6-7ece-4e79-9e55-23b42e7c1ecb)
 
 
 
